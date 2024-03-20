@@ -4,6 +4,8 @@
 
 //! An ERC20-like Token program for the Solana blockchain
 
+use solana_program::{program_error::ProgramError, pubkey::Pubkey, entrypoint::ProgramResult};
+
 pub mod error;
 pub mod instruction;
 pub mod native_mint;
