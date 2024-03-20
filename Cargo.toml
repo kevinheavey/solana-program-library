@@ -54,6 +54,7 @@ members = [
   "token-upgrade/cli",
   "token-upgrade/program",
   "token-wrap/program",
+  "token/api",
   "token/cli",
   "token/program",
   "token/program-2022",

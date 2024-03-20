@@ -7595,6 +7595,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "spl-token-api"
+version = "0.1.0"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "num-derive 0.4.2",
+ "num-traits",
+ "num_enum 0.7.2",
+ "proptest",
+ "solana-program",
+ "thiserror",
+]
+
+[[package]]
 name = "spl-token-cli"
 version = "3.3.0"
 dependencies = [
