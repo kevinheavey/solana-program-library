@@ -9,11 +9,6 @@ pub mod instruction;
 pub mod native_mint;
 pub mod state;
 
-// Export current sdk types for downstream users building with a different sdk
-// version
-pub use solana_program;
-use solana_program::{entrypoint::ProgramResult, program_error::ProgramError, pubkey::Pubkey};
-
 /// Convert the UI representation of a token amount (using the decimals field
 /// defined in its mint) to the raw amount
 pub fn ui_amount_to_amount(ui_amount: f64, decimals: u8) -> u64 {
