@@ -1,7 +1,8 @@
 //! Program entrypoint
 
 use {
-    crate::{error::TokenError, processor::Processor},
+    crate::processor::Processor,
+    spl_token_api::error::TokenError,
     solana_program::{
         account_info::AccountInfo, entrypoint::ProgramResult, program_error::PrintProgramError,
         pubkey::Pubkey,
