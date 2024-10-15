@@ -64,7 +64,6 @@ members = [
   "token-upgrade/program",
   "token-wrap/program",
   "token/cli",
-  "token/program-2022",
   "token/program-2022-test",
   "token/transfer-hook/cli",
   "token/transfer-hook/example",
@@ -82,6 +81,7 @@ members = [
 exclude = [
   "associated-token-account/client",
   "token/program",
+  "token/program-2022",
 ]
 
 resolver = "2"

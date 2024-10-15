@@ -8,9 +8,10 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-curve25519-dalek = "3.2.1"
-solana-zk-sdk = "2.0.3"
+curve25519-dalek = { git = "https://github.com/anza-xyz/curve25519-dalek.git", rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464" }
+solana-zk-sdk = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
 thiserror = "1.0.64"
+zeroize = "1.7"
 
 [dev-dependencies]
 

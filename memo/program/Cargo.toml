@@ -12,11 +12,7 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = "2.0.3"
-
-[dev-dependencies]
-solana-program-test = "2.0.3"
-solana-sdk = "2.0.3"
+solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
 
 [lib]
 crate-type = ["cdylib", "lib"]

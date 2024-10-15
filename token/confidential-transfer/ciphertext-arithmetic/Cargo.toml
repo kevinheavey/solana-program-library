@@ -10,12 +10,9 @@ edition = "2021"
 [dependencies]
 base64 = "0.22.1"
 bytemuck = "1.19.0"
-solana-curve25519 = "2.0.3"
-solana-zk-sdk = "2.0.3"
+solana-curve25519 = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-zk-sdk = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
 
-[dev-dependencies]
-spl-token-confidential-transfer-proof-generation = { version = "0.1.0", path = "../proof-generation" }
-curve25519-dalek = "3.2.1"
 
 [lib]
 crate-type = ["cdylib", "lib"]
