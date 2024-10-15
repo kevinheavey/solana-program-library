@@ -18,7 +18,7 @@ bytemuck = "1.19.0"
 num-derive = "0.4"
 num-traits = "0.2"
 num_enum = "0.7.3"
-solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "3628c03" }
 thiserror = "1.0"
 
 [lib]

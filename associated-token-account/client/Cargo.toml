@@ -8,7 +8,7 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "3628c03" }
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]

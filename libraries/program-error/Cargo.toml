@@ -10,7 +10,7 @@ edition = "2021"
 [dependencies]
 num-derive = "0.4"
 num-traits = "0.2"
-solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "3628c03" }
 spl-program-error-derive = { version = "0.4.1", path = "./derive" }
 thiserror = "1.0"
 

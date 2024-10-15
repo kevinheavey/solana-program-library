@@ -12,7 +12,7 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-program = { git = "https://github.com/anza-xyz/agave.git", rev = "3628c03" }
 
 [lib]
 crate-type = ["cdylib", "lib"]

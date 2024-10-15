@@ -9,7 +9,7 @@ edition = "2021"
 
 [dependencies]
 curve25519-dalek = { git = "https://github.com/anza-xyz/curve25519-dalek.git", rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464" }
-solana-zk-sdk = { git = "https://github.com/anza-xyz/agave.git", rev = "eaec893" }
+solana-zk-sdk = { git = "https://github.com/anza-xyz/agave.git", rev = "3628c03" }
 thiserror = "1.0.64"
 zeroize = "1.7"
 
