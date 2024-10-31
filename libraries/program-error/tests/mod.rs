@@ -9,10 +9,8 @@ mod tests {
     use {
         super::*,
         serial_test::serial,
-        solana_program::{
-            decode_error::DecodeError,
-            program_error::{PrintProgramError, ProgramError},
-        },
+        solana_decode_error::DecodeError,
+        solana_program_error::{PrintProgramError, ProgramError},
         std::sync::{Arc, RwLock},
     };
 

@@ -8215,8 +8215,11 @@ dependencies = [
  "num-derive",
  "num-traits",
  "serial_test",
- "solana-program",
+ "solana-decode-error",
+ "solana-msg",
+ "solana-program-error",
  "solana-sdk",
+ "solana-sha256-hasher",
  "spl-program-error-derive 0.4.1",
  "thiserror",
 ]
